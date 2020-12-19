@@ -493,9 +493,12 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
+
 }
 
 .about .content ul {
@@ -553,6 +556,8 @@ section {
 --------------------------------------------------------------*/
 .services {
   padding-bottom: 30px;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .services .icon-box {
@@ -610,6 +615,7 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  color: #000000;
 }
 
 .services .icon-box:hover .title a, .services .icon-box:hover .description {
@@ -1050,14 +1056,20 @@ section {
 
 .team .member:hover .social {
   opacity: 1;
-}
+} 
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+.contact{
+  background-color: #000000;
+  color: #ffffff;
+}
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #000000;
+
 }
 
 .contact .info i {
@@ -1079,14 +1091,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #493c3e;
+  color: #ffffff;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #816a6e;
+  color: #ffffff;
 }
 
 .contact .info .email, .contact .info .phone {
