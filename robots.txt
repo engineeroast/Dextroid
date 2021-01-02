@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap:https://dextroid.in/sitemap.xml
