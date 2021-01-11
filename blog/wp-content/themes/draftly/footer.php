@@ -41,10 +41,7 @@
 
 	&copy;<?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>
 	<!-- Delete below lines to remove copyright from footer -->
-	<span class="footer-info-right">
-		<?php echo __(' | Powered by WordPress and', 'draftly') ?> <a href="https://superbthemes.com/"><?php echo __(' Superb Themes!', 'draftly') ?></a>
-	</span>
-	<!-- Delete above lines to remove copyright from footer -->
+		<!-- Delete above lines to remove copyright from footer -->
 </div><!-- .site-info -->
 </div>
 
