@@ -47,7 +47,7 @@
 							<?php if ( has_custom_logo() ) : ?>
 								<?php the_custom_logo(); ?>
 								<?php else : ?>
-									<a class="logofont" href="<?php echo esc_url( home_url( 'https://dextroid.in' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+									<a class="logofont" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 								<?php endif; ?>
 							</div>
 							<div class="center-main-menu">
