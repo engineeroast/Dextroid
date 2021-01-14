@@ -13,4 +13,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /Dextroid/blog/index.php [L]
 </IfModule>
 
+RewriteCond %{QUERY_STRING} \\?s=([^&]+) [NC]
+
+RewriteRule ^$ /search/?q=%1 [NC,R,END]
+
 # END WordPress
