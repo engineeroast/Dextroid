@@ -4,6 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
 (function($) {
   "use strict";
 
@@ -223,3 +224,11 @@
   });
 
 })(jQuery);
+$('html').click(function (e) {
+    if (e.target.id == 'myPopup1') {
+        //do something
+    } else {
+        //do something
+    }
+});
+
